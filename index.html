@@ -2,33 +2,51 @@
 <html>
 <head>
 	<title>About me</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="navbar navbar-default">
-		<div class="name">
-			<h1>Martin Perez</h1>
-		</div>
-		
-			<ul class="nav nav-pills">
+<!-- Navbar -->
+<div class="navbar navbar-default">
+	<div class="container">			
+		<h1>Martin Perez</h1>
+			<ul class="nav nav-pills navbar-right">
 				<li role="presentation" class="active"><a href="#">About</a></li>
 				<li role="presentation"><a href="portfolio.html">Portfolio</a></li>
 				<li role="presentation"><a href="contact.html">Contact</a></li>
 			</ul>
 	</div>
+</div>
 
-	<div class="jumbotron">
-		<h2>About Me</h2>
-		<img class="biopic" src="biopic.jpg">
-		<p>Hey! My name is Martin Perez. I am 20 years old and will turn 21 on July 27, 2017. I was born and raised here in Utah by my parents who are both from Mexico. I am currently a student at the University of Utah Coding Bootcamp. My hobbies are playing video games, reading manga and watching anime. I am also a huge Utah Jazz fan. My favorite foods have to be Italian and japanese food. I also like to travel and hope to visit multiple countries in the future. That's a little bit about me!</p>
+<div class="container">
+  <div class="row">
+<!-- About me section -->
+    <div class="jumbotron col-lg-7 col-md-7 col-sm-12 col-xs-12">
+      <h2>About Me</h2>
+      <p><img src="biopic.jpg" class="img-responsive pull-left" alt="Responsive image">Hey! My name is Martin Perez. I am 20 years old and will turn 21 on July 27, 2017. I was born and raised here in Utah by my parents who are both from Mexico. I am currently a student at the University of Utah Coding Bootcamp. My hobbies are playing video games, reading manga and watching anime. I am also a huge Utah Jazz fan. My favorite foods have to be Italian and japanese food. I also like to travel and hope to visit multiple countries in the future. That's a little bit about me!</p>
+    </div>
+<!-- Contact me section -->
+   
+<div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
+  <h2>Contact Me</h2>
+     <div class="row">
+       <img class="img img-rounded img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-4" src="githubpic.png" alt="Github" />
+  
+       <img class="img img-rounded img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-4" src="linkedinpic.png" alt="LinkedIn" />
+  
+      <img class="img img-rounded img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-4" src="stackofpic.png" alt="StackOverflow" />
+          
 	</div>
-
-	<div class="sidebar">
-		<img class="cwmpic" src="githubpic.png">
-		<img class="cwmpic" src="linkedinpic.png">
-		<img class="cwmpic" src="stackofpic.png">
-	</div>
+    
+</div>
+</div>
+<!-- Footer -->
+ <div class="navbar navbar-fixed-bottom">
+  <div class="container">
+    Copyright 2017 Martin Perez
+  </div>
+</div>
 </body>
 </html>

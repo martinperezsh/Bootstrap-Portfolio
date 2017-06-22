@@ -1,61 +1,19 @@
-* {
-	box-sizing: border-box;
+body {
+  padding-bottom: 70px;
 }
-
-/*Navbar*/
-.navbar {
-	height: 110px;
-	background-color: lightgrey;
+/* Contact Me */
+.col-lg-4 {
+background-color: lightgrey;
+  text-align: center;
 }
-
-.name {
-	background-color:#1adbd4;
-	width: 25%;
-	padding: 20px;
-	margin-left: 60px;
+.img-rounded {
+ padding-bottom:20px;
+}
+/* Footer */
+.navbar-fixed-bottom {
+  background-color: lightgrey;
+  text-align: center
+}
+h4 {
 	text-align: center;
-	float: left;
-	color: #f8f8f8;
-}
-.nav-pills {
-	float: right;
-	margin-top: 30px;
-	
-}
-li {
-	background-color: #1adbd4;
-	color: #f8f8f8;
-}
-
-/*Jumbotrom*/
-.jumbotron {
-	width: 650px;
-	float: left;
-	background-color: lightgrey;
-	margin-right: 40px;
-	margin-left: 40px;
-	margin-top: 40px;
-}
-.biopic {
-	width: 300px;
-	height: auto;
-	float: left;
-	padding: 20px;
-}
-p {
-	padding: 20px;
-	color:  #1adbd4;
-}
-
-/*Connect with me*/
-.sidebar {
-	float: left;
-	background-color: lightgrey;
-	padding: 15px;
-	margin-top: 40px;
-}
-.cwmpic {
-	height: 50px;
-	width: 50px;
-	margin: 10px;
 }
